@@ -1,0 +1,754 @@
+7ac0
+for(;;);{
+    "DefaultAction": {
+    },
+    "DisplayName": "B8515308 3.0",
+    "MasterReplica": {
+        "DisplayName": "<local>",
+        "LocationId": "cq.replica:<local>@CQ_TCBL"
+    },
+    "MasteredLocally": true,
+    "RecordId": "cq.record:SPEC\/B8515308 3.0@CQ_TCBL\/bl_gs",
+    "STATUS": "true",
+    "StableLocation": "cq.repo.cq-record:16777235\/51006293@CQ_TCBL\/bl_gs",
+    "State": "VIEW",
+    "UserFriendlyLocation": "cq.record:SPEC\/B8515308 3.0@CQ_TCBL\/bl_gs",
+    "actions": {
+        "Modify": [
+            {
+                "DisplayName": "Modify",
+                "LocationId": "cq.repo.cq-action:16777235\/16777802@CQ_TCBL\/bl_gs"
+            }
+        ],
+        "list": {
+        },
+        "recordScriptAlias": [
+            {
+                "DisplayName": "Refresh_Spectool",
+                "LocationId": "cq.repo.cq-action:16777235\/16781053@CQ_TCBL\/bl_gs"
+            },
+            {
+                "DisplayName": "Show_Specification_Pdf",
+                "LocationId": "cq.repo.cq-action:16777235\/16782240@CQ_TCBL\/bl_gs"
+            }
+        ]
+    },
+    "allTabsLoaded": true,
+    "fields": [
+        {
+            "CurrentValue": "3.0",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_Version",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "",
+            "DataType": "DATE_TIME",
+            "FieldName": "Spec_FinalApprovalDate",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "",
+            "DataType": "DATE_TIME",
+            "FieldName": "Spec_WorkingDate",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+            ],
+            "DataType": "RESOURCE_LIST",
+            "FieldName": "Spec_Child",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:SPEC@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16777235@CQ_TCBL\/bl_gs"
+        },
+        {
+            "CurrentValue": "Manual",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_Process",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "Approved",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_Status",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "MSG",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_SubFeature",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "DDS",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_IP",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+                "[GV00270333]: Implemented SPN918 on Tx and Rx side. Updated specification to modern design template."
+            ],
+            "DataType": "MULTILINE_STRING",
+            "FieldName": "Spec_ChangeDescription",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "2019-02-13T13:19:09Z",
+            "DataType": "DATE_TIME",
+            "FieldName": "Spec_CreationDate",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "0",
+            "DataType": "INTEGER",
+            "FieldName": "Spec_FctRejectedNb",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "B8515308",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_Reference",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "",
+            "DataType": "DATE_TIME",
+            "FieldName": "Spec_ImpRejectedDate",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "1",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_RealWorkload",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "2019-02-14T11:34:25Z",
+            "DataType": "DATE_TIME",
+            "FieldName": "Spec_FctApprovalDate",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+                "The purpose of this specification is to describe the functionality of the \u201cHigh Resolution Vehicle Distance\u201d (VDHR) J1939 message (0xFEC1 \u2013 PGN 65217)."
+            ],
+            "DataType": "MULTILINE_STRING",
+            "FieldName": "Spec_Purpose",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+            ],
+            "DataType": "RESOURCE_LIST",
+            "FieldName": "Spec_Branch_Ancestors",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:SPEC@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16777235@CQ_TCBL\/bl_gs",
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "",
+            "DataType": "SHORT_STRING",
+            "FieldName": "GlobalDefectResult",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+            ],
+            "DataType": "RESOURCE_LIST",
+            "FieldName": "Spec_ReasonOfChange",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:FDS@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16777236@CQ_TCBL\/bl_gs",
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+                "This specification is relevant to all Delphi CR projects that support and utilise the \u201cSAE J1939\u201d communications protocol"
+            ],
+            "DataType": "MULTILINE_STRING",
+            "FieldName": "Spec_Scope",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+                ""
+            ],
+            "DataType": "MULTILINE_STRING",
+            "FieldName": "Spec_StatusJustification",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "",
+            "DataType": "INTEGER",
+            "FieldName": "Spec_TestNbNotJustif",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+                "R6000001: Glossary Of Software And Electronic Terms",
+                "R6510684: AUT_EMS_LIB Glossary",
+                "SAE J1939-71 2013 Specification",
+                "SAE J1939-21 2006 Specification",
+                "SAE J1939DA \u2013 Digital Annex (May 2018)"
+            ],
+            "DataType": "MULTILINE_STRING",
+            "FieldName": "Spec_DocumentLinks",
+            "IsBatchEnabled": true
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+                {
+                    "DisplayName": "51006298",
+                    "RecordId": "cq.record:CCFile\/51006298@CQ_TCBL\/bl_gs",
+                    "StableLocation": "cq.repo.cq-record:16781055\/51006298@CQ_TCBL\/bl_gs"
+                },
+                {
+                    "DisplayName": "51006300",
+                    "RecordId": "cq.record:CCFile\/51006300@CQ_TCBL\/bl_gs",
+                    "StableLocation": "cq.repo.cq-record:16781055\/51006300@CQ_TCBL\/bl_gs"
+                },
+                {
+                    "DisplayName": "51006303",
+                    "RecordId": "cq.record:CCFile\/51006303@CQ_TCBL\/bl_gs",
+                    "StableLocation": "cq.repo.cq-record:16781055\/51006303@CQ_TCBL\/bl_gs"
+                },
+                {
+                    "DisplayName": "51006308",
+                    "RecordId": "cq.record:CCFile\/51006308@CQ_TCBL\/bl_gs",
+                    "StableLocation": "cq.repo.cq-record:16781055\/51006308@CQ_TCBL\/bl_gs"
+                },
+                {
+                    "DisplayName": "51006311",
+                    "RecordId": "cq.record:CCFile\/51006311@CQ_TCBL\/bl_gs",
+                    "StableLocation": "cq.repo.cq-record:16781055\/51006311@CQ_TCBL\/bl_gs"
+                },
+                {
+                    "DisplayName": "51006313",
+                    "RecordId": "cq.record:CCFile\/51006313@CQ_TCBL\/bl_gs",
+                    "StableLocation": "cq.repo.cq-record:16781055\/51006313@CQ_TCBL\/bl_gs"
+                },
+                {
+                    "DisplayName": "51006316",
+                    "RecordId": "cq.record:CCFile\/51006316@CQ_TCBL\/bl_gs",
+                    "StableLocation": "cq.repo.cq-record:16781055\/51006316@CQ_TCBL\/bl_gs"
+                },
+                {
+                    "DisplayName": "51006319",
+                    "RecordId": "cq.record:CCFile\/51006319@CQ_TCBL\/bl_gs",
+                    "StableLocation": "cq.repo.cq-record:16781055\/51006319@CQ_TCBL\/bl_gs"
+                },
+                {
+                    "DisplayName": "51013334",
+                    "RecordId": "cq.record:CCFile\/51013334@CQ_TCBL\/bl_gs",
+                    "StableLocation": "cq.repo.cq-record:16781055\/51013334@CQ_TCBL\/bl_gs"
+                }
+            ],
+            "DataType": "RESOURCE_LIST",
+            "FieldName": "Spec_Files",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:CCFile@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16781055@CQ_TCBL\/bl_gs",
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+            ],
+            "DataType": "RESOURCE_LIST",
+            "FieldName": "Spec_Branch_Children",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:SPEC@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16777235@CQ_TCBL\/bl_gs"
+        },
+        {
+            "CurrentValue": [
+            ],
+            "DataType": "RESOURCE_LIST",
+            "FieldName": "File",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:File@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16777225@CQ_TCBL\/bl_gs"
+        },
+        {
+            "CurrentValue": "",
+            "DataType": "RESOURCE",
+            "FieldName": "Spec_SwApprover",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:Resource@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16780541@CQ_TCBL\/bl_gs",
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "0",
+            "DataType": "INTEGER",
+            "FieldName": "Spec_ImpRejectedNb",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+                ""
+            ],
+            "DataType": "MULTILINE_STRING",
+            "FieldName": "Spec_JustificationLog",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+            ],
+            "DataType": "RESOURCE_LIST",
+            "FieldName": "Ref_MODEL",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:MODEL@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16777234@CQ_TCBL\/bl_gs"
+        },
+        {
+            "CurrentValue": [
+            ],
+            "DataType": "RESOURCE_LIST",
+            "FieldName": "Spec_PackageLabelList",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:PackageLabel@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16777227@CQ_TCBL\/bl_gs",
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "TCBL",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_Repository",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "P_L_J1939_Vdhr",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_ModelName",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "",
+            "DataType": "DATE_TIME",
+            "FieldName": "Spec_FctRejectedDate",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "No Alias",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_Alias",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+            ],
+            "DataType": "RESOURCE_LIST",
+            "FieldName": "DefectsFixed",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:Defect@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16783840@CQ_TCBL\/bl_gs",
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+            ],
+            "DataType": "RESOURCE_LIST",
+            "FieldName": "Defects",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:Defect@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16783840@CQ_TCBL\/bl_gs",
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "FAUTLEY Paul",
+            "DataType": "RESOURCE",
+            "FieldName": "Spec_FunctionalLeader",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "RecordId": "cq.record:Resource\/FAUTLEY Paul@CQ_TCBL\/bl_gs",
+            "ReferencedFriendlyRecordType": "cq.record:Resource@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16780541@CQ_TCBL\/bl_gs",
+            "StableLocation": "cq.repo.cq-record:16780541\/36705862@CQ_TCBL\/bl_gs",
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+                ""
+            ],
+            "DataType": "MULTILINE_STRING",
+            "FieldName": "Spec_CheckerResults",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_SafetyProcess",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "WETZEL Nicholas",
+            "DataType": "RESOURCE",
+            "FieldName": "Spec_Author",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "RecordId": "cq.record:Resource\/WETZEL Nicholas@CQ_TCBL\/bl_gs",
+            "ReferencedFriendlyRecordType": "cq.record:Resource@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16780541@CQ_TCBL\/bl_gs",
+            "StableLocation": "cq.repo.cq-record:16780541\/40399882@CQ_TCBL\/bl_gs",
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "2019-02-18T11:14:00Z",
+            "DataType": "DATE_TIME",
+            "FieldName": "Spec_ApprovedDate",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+            ],
+            "DataType": "RESOURCE_LIST",
+            "FieldName": "Spec_Impl_All",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:CodeImpactAnalysis@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16783977@CQ_TCBL\/bl_gs"
+        },
+        {
+            "CurrentValue": [
+            ],
+            "DataType": "RESOURCE_LIST",
+            "FieldName": "Spec_Impl_Latest",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:CodeImpactAnalysis@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16783977@CQ_TCBL\/bl_gs"
+        },
+        {
+            "CurrentValue": "",
+            "DataType": "DATE_TIME",
+            "FieldName": "Spec_StbyDate",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "Delphi MDCR J1939 Messages: PGN 65217, High Resolution Vehicle Distance (VDHR)",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_Title",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "Confidential",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_ConfidentialityLevel",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+                "MetricsVersion=\"3.3\"",
+                "matlab_version=\"7.13 (R2011b)\"",
+                "modelchecker_ver=\"TCBL 28.0.3\"",
+                "ruleListVersion=\"Specific ems_lib check list: 9.0\""
+            ],
+            "DataType": "MULTILINE_STRING",
+            "FieldName": "Spec_TestConfig",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "",
+            "DataType": "RESOURCE",
+            "FieldName": "Spec_Branch_Parent",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:SPEC@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16777235@CQ_TCBL\/bl_gs",
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+                "checked by jzdpt6 on Thu Feb 14 11:27:49 2019",
+                "comment:",
+                "Model simulates correctly"
+            ],
+            "DataType": "MULTILINE_STRING",
+            "FieldName": "Spec_TestComment",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "Ecu_Forge Simulink",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_Type",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "PASS",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_TestResult",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "",
+            "DataType": "INTEGER",
+            "FieldName": "Spec_TestNbRules",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "EMS",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_Library",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "SORRENTINO Giuseppe",
+            "DataType": "RESOURCE",
+            "FieldName": "Spec_Approver",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "RecordId": "cq.record:Resource\/SORRENTINO Giuseppe@CQ_TCBL\/bl_gs",
+            "ReferencedFriendlyRecordType": "cq.record:Resource@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16780541@CQ_TCBL\/bl_gs",
+            "StableLocation": "cq.repo.cq-record:16780541\/49948964@CQ_TCBL\/bl_gs",
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "P_L_Com",
+            "DataType": "SHORT_STRING",
+            "FieldName": "Spec_Feature",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "",
+            "DataType": "RESOURCE",
+            "FieldName": "Spec_Notification",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:Notification@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16782463@CQ_TCBL\/bl_gs",
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "",
+            "DataType": "DATE_TIME",
+            "FieldName": "Spec_ImpSettingDate",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+                "GUI MODIFY on 11\/06\/2019 12:18:14 by Admin CQ (CQ 9.0.0.5)",
+                "[PlasticBranch] SET value [\/P_L_J1939_Vdhr\/B8515308_3.0] (no previous value)",
+                "[PlasticRepo] SET value [SPEC\/P_L_Com@frbloctdsrv08:8087] (no previous value)",
+                "========================================================",
+                "WEB MODIFY on 18\/02\/2019 12:14:25 by SORRENTINO Giuseppe (CQ 9.0.1.3) - by tool 'Ecu_Forge 1.4.0.0'",
+                "[Spec_ApprovedDate] SET value [2019-02-18 12:14:00] (no previous value)",
+                "[Spec_Status] SET value [Approved] (prev value : [Fct Approval])",
+                "========================================================",
+                "WEB MODIFY on 14\/02\/2019 12:34:27 by WETZEL Nicholas (CQ 9.0.1.3) - by tool 'Ecu_Forge 1.4.2.0'",
+                "[Spec_TestResult] SET value [PASS] (no previous value)",
+                "[Spec_FctApprovalDate] SET value [2019-02-14 12:34:25] (no previous value)",
+                "[Spec_TestConfig] SET value [MetricsVersion=\"3.3\"",
+                "matlab_version=\"7.13 (R2011b)\"",
+                "modelchecker_ver=\"TCBL 28.0.3\"",
+                "ruleListVersion=\"Specific ems_lib check list: 9.0\"] (no previous value)",
+                "[Spec_Status] SET value [Fct Approval] (prev value : [Working])",
+                "[Spec_TestComment] SET value [checked by jzdpt6 on Thu Feb 14 11:27:49 2019",
+                "comment:",
+                "Model simulates correctly] (no previous value)",
+                "========================================================",
+                "WEB MODIFY on 14\/02\/2019 12:33:54 by WETZEL Nicholas (CQ 9.0.1.3) - by tool 'Ecu_Forge 1.4.2.0'",
+                "[Spec_RealWorkload] SET value [1] (no previous value)",
+                "========================================================",
+                "WEB MODIFY on 14\/02\/2019 12:24:48 by WETZEL Nicholas (CQ 9.0.1.3) - by tool 'Ecu_Forge 1.4.2.0'",
+                "[Spec_DocumentLinks] SET value [R6000001: Glossary Of Software And Electronic Terms",
+                "R6510684: AUT_EMS_LIB Glossary",
+                "SAE J1939-71 2013 Specification",
+                "SAE J1939-21 2006 Specification",
+                "SAE J1939DA \u2013 Digital Annex (May 2018)] (prev value : [R6000001: Glossary Of Software And Electronic Terms [...]])",
+                "========================================================",
+                "WEB MODIFY on 14\/02\/2019 12:23:59 by WETZEL Nicholas (CQ 9.0.1.3) - by tool 'Ecu_Forge 1.4.2.0'",
+                "[Spec_Files] ADDED value [51013334]",
+                "========================================================",
+                "WEB MODIFY on 14\/02\/2019 11:58:13 by WETZEL Nicholas (CQ 9.0.1.3) - by tool 'Ecu_Forge 1.4.2.0'",
+                "[Spec_ChangeDescription] SET value [[GV00270333]: Implemented SPN918 on Tx and Rx side. Updated specification to modern design template.] (no previous value)",
+                "========================================================",
+                "WEB MODIFY on 14\/02\/2019 11:57:20 by WETZEL Nicholas (CQ 9.0.1.3) - by tool 'Ecu_Forge 1.4.2.0'",
+                "[Spec_Approver] SET value [SORRENTINO Giuseppe] (prev value : [ROTARU Emanuel])",
+                "========================================================",
+                "WEB MODIFY on 13\/02\/2019 14:19:49 by FAUTLEY Paul (CQ 9.0.1.3) - by tool 'Ecu_Forge 1.4.2.0'",
+                "[Spec_Files] ADDED value [51006311]",
+                "[Spec_Files] ADDED value [51006303]",
+                "[Spec_Files] ADDED value [51006313]",
+                "[Spec_Files] ADDED value [51006300]",
+                "[Spec_Files] ADDED value [51006298]",
+                "[Spec_Files] ADDED value [51006319]",
+                "[Spec_Files] ADDED value [51006308]",
+                "[Spec_Files] ADDED value [51006316]",
+                "[Spec_Author] SET value [WETZEL Nicholas] (prev value : [FAUTLEY Paul])",
+                "[Spec_Type] SET value [Ecu_Forge Simulink] (prev value : [Spectool])",
+                "[Spec_ModelName] SET value [P_L_J1939_Vdhr] (no previous value)",
+                "[Spec_Repository] SET value [TCBL] (no previous value)",
+                "[Spec_Approver] SET value [ROTARU Emanuel] (prev value : [AA Supreeth])",
+                "[Spec_Status] SET value [Working] (prev value : [Pending])",
+                "[Spec_Process] SET value [Manual] (no previous value)",
+                "========================================================",
+                "WEB SUBMIT on 13\/02\/2019 14:19:09 by FAUTLEY Paul (CQ 9.0.1.3) - by tool 'Ecu_Forge 1.4.2.0'",
+                "[Spec_FunctionalLeader] SET value [FAUTLEY Paul] (no previous value)",
+                "[Spec_Author] SET value [FAUTLEY Paul] (no previous value)",
+                "[Spec_Status] SET value [Pending] (no previous value)",
+                "[Spec_Version] SET value [3.0] (no previous value)",
+                "[Spec_VersionInt] SET value [3000] (no previous value)",
+                "[Spec_Parent] SET value [B8515308 2.0] (no previous value)",
+                "[Spec_Scope] SET value [This specification is relevant to all Delphi CR projects that support and utilise the \u201cSAE J1939\u201d communications protocol] (no previous value)",
+                "[Spec_Library] SET value [EMS] (no previous value)",
+                "[Spec_FctRejectedNb] SET value [0] (no previous value)",
+                "[Spec_Feature] SET value [P_L_Com] (no previous value)",
+                "[Spec_DocumentLinks] SET value [R6000001: Glossary Of Software And Electronic Terms\r",
+                "R6510684: AUT_EMS_LIB Glossary\r",
+                "SAE J1939-71 2013 Specification\r",
+                "SAE J1939-21 2006 Specification\r",
+                "SAE J1939DA \u2013 Digital Annex (February 2014)] (no previous value)",
+                "[Spec_Type] SET value [Spectool] (no previous value)",
+                "[Spec_Alias] SET value [No Alias] (no previous value)",
+                "[Spec_ConfidentialityLevel] SET value [Confidential] (no previous value)",
+                "[Spec_Id] SET value [B8515308 3.0] (no previous value)",
+                "[Spec_CreationDate] SET value [2019-02-13 14:19:09] (no previous value)",
+                "[Spec_SubFeature] SET value [MSG] (no previous value)",
+                "[Spec_Approver] SET value [AA Supreeth] (no previous value)",
+                "[Spec_Purpose] SET value [The purpose of this specification is to describe the functionality of the \u201cHigh Resolution Vehicle Distance\u201d (VDHR) J1939 message (0xFEC1 \u2013 PGN 65217).] (no previous value)",
+                "[Spec_Reference] SET value [B8515308] (no previous value)",
+                "[Origine] SET value [NewVersionRequirementButton] (no previous value)",
+                "[Spec_Title] SET value [Delphi MDCR J1939 Messages: PGN 65217, High Resolution Vehicle Distance (VDHR)] (no previous value)",
+                "[Spec_IP] SET value [DDS] (no previous value)",
+                "[Path] SET value [\\blois_spec_p_l\\p_l\\p_l_com\\MSG\\B8515308] (no previous value)",
+                "[Spec_ImpRejectedNb] SET value [0] (no previous value)",
+                "========================================================"
+            ],
+            "DataType": "MULTILINE_STRING",
+            "FieldName": "Spec_Log",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "B8515308 2.0",
+            "DataType": "RESOURCE",
+            "FieldName": "Spec_Parent",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "RecordId": "cq.record:SPEC\/B8515308 2.0@CQ_TCBL\/bl_gs",
+            "ReferencedFriendlyRecordType": "cq.record:SPEC@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16777235@CQ_TCBL\/bl_gs",
+            "StableLocation": "cq.repo.cq-record:16777235\/44666775@CQ_TCBL\/bl_gs",
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "",
+            "DataType": "INTEGER",
+            "FieldName": "Spec_TestNbIssues",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "11",
+            "DataType": "INTEGER",
+            "FieldName": "version",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false
+        }
+    ],
+    "isOSLCLinkEnabled": false,
+    "isOSLCPrefillEnabled": false,
+    "isUcmEnabled": false,
+    "recordType": "cq.repo.cq-rectype:16777235@CQ_TCBL\/bl_gs",
+    "recordTypeFriendlyLoc": "cq.record:SPEC@CQ_TCBL\/bl_gs",
+    "treegrid_identifier": "cq.repo.cq-record:16777235\/51006293@CQ_TCBL\/bl_gs@1572914995809"
+}
+0
+

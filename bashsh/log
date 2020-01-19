@@ -1,0 +1,398 @@
+
+
+
+
+
+ 
+{
+	status:'true',
+	message:'',
+	cqUid:'5c0c681f-4986-4224-b4d3-48afd4793f7c',
+	userdb:'CQ_TCBL/bl_gs',
+	featureLevel: 7,
+	isMultisteActivated: false,
+	isFullTextSearchEnabled: false,
+	maxColumnLenght: 200,
+	localReplica: '<local>',
+	isUserMasteredLocally: true,
+	fullName:'ZHAO Yanqiang',
+	isSuperUser: false,
+	isDynamicListAdmin: false,
+	isRestrictedUser: false,
+	isReqProEnabled: false,
+	isVegaServerConfigured: false
+	
+		,defaultRecordType: '',	
+		restrictSetting: {
+    "STATUS": "true",
+    "allowCredsInURI": true,
+    "disableCache": true,
+    "disableCookies": false,
+    "disableNewItems": true,
+    "disableRESTURIMenu": false,
+    "enableButtonsForReadOnlyForm": false,
+    "enableConfigurations": false,
+    "enableFindRecord": false,
+    "enableModifyRecord": false,
+    "enableUserProfile": false,
+    "enableWorkspace": false,
+    "enabledQueries": [
+        ""
+    ],
+    "isRestricted": false,
+    "maxMruPageSize": 100,
+    "reuseSessionsForURI": "alwaysAllow",
+    "showCustomMandatoryOnce": false
+},
+		userPreference: {
+    "HIDDEN_FIELDS": {
+        "MORSubmitTypes": {
+            "value": [
+                {
+                    "DisplayName": "SPEC",
+                    "LocationId": "cq.record:SPEC@CQ_TCBL\/bl_gs"
+                },
+                {
+                    "DisplayName": "CITD",
+                    "LocationId": "cq.record:CITD@CQ_TCBL\/bl_gs"
+                },
+                {
+                    "DisplayName": "CodeImpactAnalysis",
+                    "LocationId": "cq.record:CodeImpactAnalysis@CQ_TCBL\/bl_gs"
+                },
+                {
+                    "DisplayName": "Delivery",
+                    "LocationId": "cq.record:Delivery@CQ_TCBL\/bl_gs"
+                },
+                {
+                    "DisplayName": "File",
+                    "LocationId": "cq.record:File@CQ_TCBL\/bl_gs"
+                },
+                {
+                    "DisplayName": "Tool",
+                    "LocationId": "cq.record:Tool@CQ_TCBL\/bl_gs"
+                }
+            ]
+        },
+        "QUERY_DEFAULT": {
+            "value": {
+                "cq.repo.cq-rectype:16777225@CQ_TCBL\/bl_gs": {
+                    "display": [
+                        [
+                            "id",
+                            "id",
+                            true,
+                            "NO_SORT",
+                            0
+                        ]
+                    ]
+                },
+                "cq.repo.cq-rectype:16777235@CQ_TCBL\/bl_gs": {
+                    "display": [
+                        [
+                            "Spec_Id",
+                            "Spec_Id",
+                            true,
+                            "NO_SORT",
+                            0
+                        ]
+                    ],
+                    "filters": [
+                        {
+                            "op": "CONJUNCTION",
+                            "operands": [
+                                {
+                                    "compops": [
+                                        1,
+                                        2,
+                                        3,
+                                        4,
+                                        5,
+                                        6,
+                                        7,
+                                        8,
+                                        11,
+                                        12
+                                    ],
+                                    "displayName": "Spec_Feature",
+                                    "fieldPath": "Spec_Feature",
+                                    "fieldType": "SHORT_STRING",
+                                    "hasDynamicChoiceList": false,
+                                    "hasOpenChoiceList": false,
+                                    "isDynamic": true,
+                                    "prompt": [
+                                        "Enter: Spec_Feature"
+                                    ],
+                                    "stableLocation": "cq.repo.cq-field:16777235\/16780970@CQ_TCBL\/bl_gs",
+                                    "type": "FIELD",
+                                    "valueList": [
+                                    ],
+                                    "values": [
+                                    ]
+                                },
+                                {
+                                    "compops": [
+                                        1,
+                                        2,
+                                        3,
+                                        4,
+                                        5,
+                                        6,
+                                        7,
+                                        8,
+                                        11,
+                                        12
+                                    ],
+                                    "displayName": "Spec_SubFeature",
+                                    "fieldPath": "Spec_SubFeature",
+                                    "fieldType": "SHORT_STRING",
+                                    "hasDynamicChoiceList": false,
+                                    "hasOpenChoiceList": false,
+                                    "isDynamic": true,
+                                    "prompt": [
+                                        "Enter: Spec_SubFeature"
+                                    ],
+                                    "stableLocation": "cq.repo.cq-field:16777235\/16780971@CQ_TCBL\/bl_gs",
+                                    "type": "FIELD",
+                                    "valueList": [
+                                    ],
+                                    "values": [
+                                    ]
+                                },
+                                {
+                                    "compops": [
+                                        1,
+                                        2,
+                                        3,
+                                        4,
+                                        5,
+                                        6,
+                                        7,
+                                        8,
+                                        11,
+                                        12
+                                    ],
+                                    "displayName": "Spec_Title",
+                                    "fieldPath": "Spec_Title",
+                                    "fieldType": "SHORT_STRING",
+                                    "hasDynamicChoiceList": false,
+                                    "hasOpenChoiceList": true,
+                                    "isDynamic": true,
+                                    "op": "HAS_SUBSTRING",
+                                    "prompt": [
+                                        "Enter: Spec_Title"
+                                    ],
+                                    "stableLocation": "cq.repo.cq-field:16777235\/16777584@CQ_TCBL\/bl_gs",
+                                    "type": "FIELD",
+                                    "valueList": [
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "cq.repo.cq-rectype:16777236@CQ_TCBL\/bl_gs": {
+                    "display": [
+                        [
+                            "FDS_Num",
+                            "FDS_Num",
+                            true,
+                            "NO_SORT",
+                            0
+                        ]
+                    ]
+                },
+                "cq.repo.cq-rectype:16783179@CQ_TCBL\/bl_gs": {
+                    "display": [
+                        [
+                            "SPEC.Spec_Version",
+                            "SPEC.Spec_Version",
+                            true,
+                            "NO_SORT",
+                            0
+                        ]
+                    ],
+                    "filters": [
+                        {
+                            "op": "CONJUNCTION",
+                            "operands": [
+                                {
+                                    "compops": [
+                                        1,
+                                        2,
+                                        3,
+                                        4,
+                                        5,
+                                        6,
+                                        7,
+                                        8,
+                                        11,
+                                        12
+                                    ],
+                                    "displayName": "Feature",
+                                    "fieldPath": "Feature",
+                                    "fieldType": "SHORT_STRING",
+                                    "hasDynamicChoiceList": false,
+                                    "hasOpenChoiceList": false,
+                                    "stableLocation": "cq.repo.cq-field:16783179\/16783199@CQ_TCBL\/bl_gs",
+                                    "type": "FIELD",
+                                    "valueList": [
+                                    ]
+                                },
+                                {
+                                    "compops": [
+                                        1,
+                                        2,
+                                        3,
+                                        4,
+                                        5,
+                                        6,
+                                        7,
+                                        8,
+                                        11,
+                                        12
+                                    ],
+                                    "displayName": "SubFeature",
+                                    "fieldPath": "SubFeature",
+                                    "fieldType": "SHORT_STRING",
+                                    "hasDynamicChoiceList": false,
+                                    "hasOpenChoiceList": false,
+                                    "stableLocation": "cq.repo.cq-field:16783179\/16783200@CQ_TCBL\/bl_gs",
+                                    "type": "FIELD",
+                                    "valueList": [
+                                    ]
+                                },
+                                {
+                                    "compops": [
+                                        1,
+                                        2,
+                                        3,
+                                        4,
+                                        5,
+                                        6,
+                                        7,
+                                        8,
+                                        11,
+                                        12
+                                    ],
+                                    "displayName": "Title",
+                                    "fieldPath": "Title",
+                                    "fieldType": "SHORT_STRING",
+                                    "hasDynamicChoiceList": false,
+                                    "hasOpenChoiceList": true,
+                                    "stableLocation": "cq.repo.cq-field:16783179\/16783192@CQ_TCBL\/bl_gs",
+                                    "type": "FIELD",
+                                    "valueList": [
+                                    ]
+                                },
+                                {
+                                    "compops": [
+                                        1,
+                                        2,
+                                        3,
+                                        4,
+                                        5,
+                                        6,
+                                        7,
+                                        8,
+                                        11,
+                                        12
+                                    ],
+                                    "displayName": "Type",
+                                    "fieldPath": "Type",
+                                    "fieldType": "SHORT_STRING",
+                                    "hasDynamicChoiceList": false,
+                                    "hasOpenChoiceList": false,
+                                    "stableLocation": "cq.repo.cq-field:16783179\/16783193@CQ_TCBL\/bl_gs",
+                                    "type": "FIELD",
+                                    "valueList": [
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "STARTUP_QUERY": {
+            "value": "%7B%22loginDate%22%3A%22Mon%2C%2014%20May%202018%2007%3A22%3A12%20GMT%22%7D"
+        }
+    },
+    "generalView": {
+        "LOAD_STARTUP_QUERY_RESULT": {
+            "defaultValue": "true",
+            "possibleValues": "true$false",
+            "uiCTRL": "CHECKBOX",
+            "value": "true"
+        },
+        "SHOW_PROPERTIES_VIEW": {
+            "defaultValue": "false",
+            "possibleValues": "true$false",
+            "uiCTRL": "CHECKBOX",
+            "value": "false"
+        }
+    },
+    "mruView": {
+        "MRU_PAGE_SIZE": {
+            "defaultValue": 100,
+            "maxValue": "maxMruPageSize",
+            "minValue": 1,
+            "required": true,
+            "uiCTRL": "NUMBERBOX",
+            "value": 100
+        },
+        "MRU_PS_ASK_WHEN_INCREASING": {
+            "defaultValue": "askMe",
+            "possibleValues": "increasePageSize$keepPageSize$askMe",
+            "uiCTRL": "COMBOBOX",
+            "value": "askMe"
+        },
+        "MRU_PS_ASK_WHEN_REDUCING": {
+            "defaultValue": "askMe",
+            "possibleValues": "decreasePageSize$askMe",
+            "uiCTRL": "COMBOBOX",
+            "value": "askMe"
+        }
+    },
+    "resultSetview": {
+        "NUMBER_ROWS_PER_PAGE": {
+            "defaultValue": "20",
+            "possibleValues": "20$50$100",
+            "uiCTRL": "COMBOBOX",
+            "value": "20"
+        },
+        "OPEN_RELATED_RECORD": {
+            "defaultValue": "floatingPane",
+            "possibleValues": "floatingPane$tab",
+            "uiCTRL": "COMBOBOX",
+            "value": "floatingPane"
+        },
+        "RESULTSET_DATE_FORMAT": {
+            "defaultValue": "longDate",
+            "possibleValues": "longDate$mediumDate$shortDate",
+            "uiCTRL": "COMBOBOX",
+            "value": "longDate"
+        },
+        "SHOW_CUSTOM_RECORD_VIEW": {
+            "defaultValue": "false",
+            "possibleValues": "true$false",
+            "uiCTRL": "CHECKBOX",
+            "value": "false"
+        },
+        "SHOW_SPLIT_VIEW": {
+            "defaultValue": "single",
+            "possibleValues": "single$split",
+            "uiCTRL": "COMBOBOX",
+            "value": "single"
+        },
+        "SORT_SERVER_CLIENT": {
+            "defaultValue": "client",
+            "possibleValues": "client$server",
+            "uiCTRL": "COMBOBOX",
+            "value": "client"
+        }
+    }
+}
+	
+	
+}

@@ -1,0 +1,166 @@
+18bd
+for(;;);{
+    "DefaultAction": {
+    },
+    "DisplayName": "51006303",
+    "MasterReplica": {
+        "DisplayName": "<local>",
+        "LocationId": "cq.replica:<local>@CQ_TCBL"
+    },
+    "MasteredLocally": true,
+    "RecordId": "cq.record:CCFile\/51006303@CQ_TCBL\/bl_gs",
+    "STATUS": "true",
+    "StableLocation": "cq.repo.cq-record:16781055\/51006303@CQ_TCBL\/bl_gs",
+    "State": "VIEW",
+    "UserFriendlyLocation": "cq.record:CCFile\/51006303@CQ_TCBL\/bl_gs",
+    "actions": {
+        "Modify": [
+            {
+                "DisplayName": "Modify",
+                "LocationId": "cq.repo.cq-action:16781055\/16781101@CQ_TCBL\/bl_gs"
+            }
+        ],
+        "list": {
+        },
+        "recordScriptAlias": [
+            {
+                "DisplayName": "Show",
+                "LocationId": "cq.repo.cq-action:16781055\/16781103@CQ_TCBL\/bl_gs"
+            },
+            {
+                "DisplayName": "Extract",
+                "LocationId": "cq.repo.cq-action:16781055\/16782366@CQ_TCBL\/bl_gs"
+            }
+        ]
+    },
+    "allTabsLoaded": true,
+    "fields": [
+        {
+            "CurrentValue": "B8515308.pdf",
+            "DataType": "SHORT_STRING",
+            "FieldName": "CCName",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "\/spec\/confidential\/p_l_com\/msg\/p_l_j1939_vdhr\/",
+            "DataType": "SHORT_STRING",
+            "FieldName": "PscmPath",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "Specification (PDF)",
+            "DataType": "SHORT_STRING",
+            "FieldName": "CCType",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "p_l_j1939_vdhr.pdf",
+            "DataType": "SHORT_STRING",
+            "FieldName": "PscmName",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+                ""
+            ],
+            "DataType": "MULTILINE_STRING",
+            "FieldName": "CCComment",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "cs:5542",
+            "DataType": "SHORT_STRING",
+            "FieldName": "PscmCs",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": [
+                "GUI MODIFY on 11\/06\/2019 12:18:11 by Admin CQ (CQ 9.0.0.5)",
+                "[PscmRepo] SET value [SPEC\/P_L_Com@frbloctdsrv08:8087] (no previous value)",
+                "[PscmCs] SET value [cs:5542] (no previous value)",
+                "[PscmPath] SET value [\/spec\/confidential\/p_l_com\/msg\/p_l_j1939_vdhr\/] (no previous value)",
+                "[PscmName] SET value [p_l_j1939_vdhr.pdf] (no previous value)",
+                "========================================================",
+                "WEB MODIFY on 18\/02\/2019 12:14:12 by SORRENTINO Giuseppe (CQ 9.0.1.3) - by tool 'Ecu_Forge 1.4.0.0'",
+                "[CCOID] SET value [9a0a2879.12f84c0c.befa.21:e1:e3:3a:0d:1e] (no previous value)",
+                "[CCVersion] SET value [\\B8515308_3.0] (prev value : [\\B8515308_3.0_DRAFT])",
+                "========================================================",
+                "WEB SUBMIT on 13\/02\/2019 14:19:27 by FAUTLEY Paul (CQ 9.0.1.3) - by tool 'Ecu_Forge 1.4.2.0'",
+                "[CCPath] SET value [\\blois_spec_p_l\\p_l\\p_l_com\\MSG\\B8515308] (no previous value)",
+                "[CCName] SET value [B8515308.pdf] (no previous value)",
+                "[CCParent] SET value [B8515308 3.0,SPEC,] (no previous value)",
+                "[CCType] SET value [Specification (PDF)] (no previous value)",
+                "[CCFamilyUUID] SET value [5d9e6635.f0f543d7.bd40.f9:2a:bf:a2:14:4c] (no previous value)",
+                "[CCVersion] SET value [\\B8515308_3.0_DRAFT] (no previous value)",
+                "[CCFile_Id] SET value [51006303] (no previous value)",
+                "========================================================"
+            ],
+            "DataType": "MULTILINE_STRING",
+            "FieldName": "CCLog",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "\\B8515308_3.0",
+            "DataType": "SHORT_STRING",
+            "FieldName": "CCVersion",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "SPEC\/P_L_Com@frbloctdsrv08:8087",
+            "DataType": "SHORT_STRING",
+            "FieldName": "PscmRepo",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "",
+            "DataType": "RESOURCE",
+            "FieldName": "CCAttachFileGui",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "ReferencedFriendlyRecordType": "cq.record:CCFile@CQ_TCBL\/bl_gs",
+            "ReferencedRecordType": "cq.repo.cq-rectype:16781055@CQ_TCBL\/bl_gs",
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "\\blois_spec_p_l\\p_l\\p_l_com\\MSG\\B8515308",
+            "DataType": "SHORT_STRING",
+            "FieldName": "CCPath",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false,
+            "hasHelpText": true
+        },
+        {
+            "CurrentValue": "3",
+            "DataType": "INTEGER",
+            "FieldName": "version",
+            "IsBatchEnabled": true,
+            "IsPrefillEnabled": false
+        }
+    ],
+    "isOSLCLinkEnabled": false,
+    "isOSLCPrefillEnabled": false,
+    "isUcmEnabled": false,
+    "recordType": "cq.repo.cq-rectype:16781055@CQ_TCBL\/bl_gs",
+    "recordTypeFriendlyLoc": "cq.record:CCFile@CQ_TCBL\/bl_gs",
+    "treegrid_identifier": "cq.repo.cq-record:16781055\/51006303@CQ_TCBL\/bl_gs@1572915007325"
+}
+0
+

@@ -1,0 +1,99 @@
+bc2
+for(;;);{
+    "ColumnTypes": [
+        "SHORT_STRING",
+        "SHORT_STRING",
+        "SHORT_STRING",
+        "SHORT_STRING",
+        "SHORT_STRING",
+        "DBID",
+        "USER_FRIENDLY_LOCATION",
+        "STABLE_LOCATION"
+    ],
+    "STATUS": "true",
+    "TableContents": [
+        [
+            "Approval Check List",
+            "B8515308_Checklist.xls",
+            "\\B8515308_3.0",
+            "p_l_j1939_vdhr_ckl.xls",
+            "51006298",
+            "cq.record:CCFile\/51006298@CQ_TCBL\/bl_gs",
+            "cq.repo.cq-record:16781055\/51006298@CQ_TCBL\/bl_gs"
+        ],
+        [
+            "Compare (PDF)",
+            "B8515308_Compare.pdf",
+            "\\B8515308_3.0",
+            "p_l_j1939_vdhr_cmp.pdf",
+            "51006300",
+            "cq.record:CCFile\/51006300@CQ_TCBL\/bl_gs",
+            "cq.repo.cq-record:16781055\/51006300@CQ_TCBL\/bl_gs"
+        ],
+        [
+            "Specification (PDF)",
+            "B8515308.pdf",
+            "\\B8515308_3.0",
+            "p_l_j1939_vdhr.pdf",
+            "51006303",
+            "cq.record:CCFile\/51006303@CQ_TCBL\/bl_gs",
+            "cq.repo.cq-record:16781055\/51006303@CQ_TCBL\/bl_gs"
+        ],
+        [
+            "Static test result",
+            "B8515308_STR.xml",
+            "\\B8515308_3.0",
+            "p_l_j1939_vdhr_str.xml",
+            "51006308",
+            "cq.record:CCFile\/51006308@CQ_TCBL\/bl_gs",
+            "cq.repo.cq-record:16781055\/51006308@CQ_TCBL\/bl_gs"
+        ],
+        [
+            "DD (XML)",
+            "B8515308_DD.xml",
+            "\\B8515308_3.0",
+            "p_l_j1939_vdhr_dd.xml",
+            "51006311",
+            "cq.record:CCFile\/51006311@CQ_TCBL\/bl_gs",
+            "cq.repo.cq-record:16781055\/51006311@CQ_TCBL\/bl_gs"
+        ],
+        [
+            "Functional model",
+            "B8515308.mdl",
+            "\\B8515308_3.0",
+            "p_l_j1939_vdhr.mdl",
+            "51006313",
+            "cq.record:CCFile\/51006313@CQ_TCBL\/bl_gs",
+            "cq.repo.cq-record:16781055\/51006313@CQ_TCBL\/bl_gs"
+        ],
+        [
+            "Simulation model",
+            "B8515308_simu.mdl",
+            "\\B8515308_3.0",
+            "p_l_j1939_vdhr_simu.mdl",
+            "51006316",
+            "cq.record:CCFile\/51006316@CQ_TCBL\/bl_gs",
+            "cq.repo.cq-record:16781055\/51006316@CQ_TCBL\/bl_gs"
+        ],
+        [
+            "Simulation parameters",
+            "B8515308_simu_parameters.m",
+            "\\B8515308_3.0",
+            "p_l_j1939_vdhr_simu_parameters.m",
+            "51006319",
+            "cq.record:CCFile\/51006319@CQ_TCBL\/bl_gs",
+            "cq.repo.cq-record:16781055\/51006319@CQ_TCBL\/bl_gs"
+        ],
+        [
+            "Other",
+            "B8515308_snapshotmodel.tar",
+            "\\B8515308_3.0",
+            "p_l_j1939_vdhr_snapshotmodel.tar",
+            "51013334",
+            "cq.record:CCFile\/51013334@CQ_TCBL\/bl_gs",
+            "cq.repo.cq-record:16781055\/51013334@CQ_TCBL\/bl_gs"
+        ]
+    ]
+}
+0
+

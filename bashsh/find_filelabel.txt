@@ -1,0 +1,115 @@
+------------------------------
+# CMD NO no this file: P_T_Scr_Urea_Accum_Cons_Cal.c                   
+cleartool checkout -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../blois_soft_vob/Software/Appli/p_t/src
+touch x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../blois_soft_vob/Software/Appli/p_t/src/P_T_Scr_Urea_Accum_Cons_Cal.c
+cleartool mkelem -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../blois_soft_vob/Software/Appli/p_t/src/P_T_Scr_Urea_Accum_Cons_Cal.c
+cd /d  x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../blois_soft_vob/Software/Appli/p_t/src
+cleartool ln  src@@\main\P_T_Scr_Urea_Accum_Cons_Cal.c  P_T_Scr_Urea_Accum_Cons_Cal.c
+------------------------------
+------------------------------
+# CMD NO no this file: P_L_Cc_J1939_A1scrsi2_Tx_Frm.c                   
+cleartool checkout -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src
+touch x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_A1scrsi2_Tx_Frm.c
+cleartool mkelem -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_A1scrsi2_Tx_Frm.c
+cd /d  x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src
+cleartool ln  src@@\main\P_L_Cc_J1939_A1scrsi2_Tx_Frm.c  P_L_Cc_J1939_A1scrsi2_Tx_Frm.c
+------------------------------
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_Vdhr_Tx_Frm.c@@\main\b8515308_3.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_Vdhr_Rx.c@@\main\b8515308_3.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/appli/eud/src/eud_distance_calculations.c@@\main\b8517768_4.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/appli/eud/src/eud_distance_calculations.h@@\main\b8517768_4.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/appli/eud/src/eud_distance_calculations_private.h@@\main\b8517768_4.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/appli/eud/src/eud_distance_calculations_types.h@@\main\b8517768_4.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/appli/eud/src/eud_distance_calculations_dd.t55@@\main\b8517768_4.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_A1scrdsi1_Rx.c@@\main\b8516783_5.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_A1scrdsi1_Rx.t55@@\main\b8516783_5.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_A1scrdsi1_Tx_Frm.c@@\main\b8516783_5.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_A1scrdsi1_Tx_Frm.t55@@\main\b8516783_5.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_Oi_Tx_Frm.c@@\main\a0124223_1.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_Dm1_Rx_Frm.c@@\main\b8517164_13.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_Dm1_Tx_Frm.c@@\main\sb7122_ctc\BR_1JYUCAPP_B_CTC\1
+------------------------------
+# CMD NO no this file: P_L_Cc_J1939_Rq_Dm5_Frm.c                   
+cleartool checkout -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src
+touch x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_Rq_Dm5_Frm.c
+cleartool mkelem -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_Rq_Dm5_Frm.c
+cd /d  x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src
+cleartool ln  src@@\main\P_L_Cc_J1939_Rq_Dm5_Frm.c  P_L_Cc_J1939_Rq_Dm5_Frm.c
+------------------------------
+------------------------------
+# CMD NO no this file: P_L_Cc_J1939_Rq_Dm20_Frm.c                   
+cleartool checkout -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src
+touch x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_Rq_Dm20_Frm.c
+cleartool mkelem -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_Rq_Dm20_Frm.c
+cd /d  x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src
+cleartool ln  src@@\main\P_L_Cc_J1939_Rq_Dm20_Frm.c  P_L_Cc_J1939_Rq_Dm20_Frm.c
+------------------------------
+------------------------------
+# CMD NO no this file: P_L_Cc_J1939_Dm05_Interface.c                   
+cleartool checkout -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src
+touch x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_Dm05_Interface.c
+cleartool mkelem -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_Dm05_Interface.c
+cd /d  x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src
+cleartool ln  src@@\main\P_L_Cc_J1939_Dm05_Interface.c  P_L_Cc_J1939_Dm05_Interface.c
+------------------------------
+------------------------------
+# CMD NO no this file: P_L_Cc_J1939_Dm20_Interface.c                   
+cleartool checkout -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src
+touch x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_Dm20_Interface.c
+cleartool mkelem -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_Dm20_Interface.c
+cd /d  x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src
+cleartool ln  src@@\main\P_L_Cc_J1939_Dm20_Interface.c  P_L_Cc_J1939_Dm20_Interface.c
+------------------------------
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../blois_soft_vob/Software/Appli/icv/src/ICV_Veh_Speed_Lim_Interface.c@@\main\sb7122_ctc\BR_1JYUCAPP_B_CTC\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/appli/icv/src/icv_cruise_decoding.c@@\main\a0114492_3.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/appli/icv/src/icv_cruise_decoding.h@@\main\a0114492_3.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/appli/icv/src/icv_cruise_decoding_private.h@@\main\a0114492_3.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/appli/icv/src/icv_cruise_decoding_types.h@@\main\a0114492_3.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/appli/icv/src/icv_cruise_decoding_dd.t55@@\main\a0114492_3.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/appli/icv/src/icv_cruise_req_md.c@@\main\a0124273_1.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/appli/icv/src/icv_cruise_req_md.h@@\main\a0124273_1.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/appli/icv/src/icv_cruise_req_md_private.h@@\main\a0124273_1.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/appli/icv/src/icv_cruise_req_md_types.h@@\main\a0124273_1.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/appli/icv/src/icv_cruise_req_md_dd.t55@@\main\a0124273_1.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_Ccvs1_Tx_Frm.c@@\main\a0122832_2.0\1
+x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_com/p_l_cc/p_l_cc_j1939/src/P_L_Cc_J1939_Ccvs1_Tx_Frm.t55@@\main\b8517616_15.0\1
+------------------------------
+# CMD NO no this file: p_l_veh_spd_sens_diag.c                   
+cleartool checkout -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src
+touch x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src/p_l_veh_spd_sens_diag.c
+cleartool mkelem -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src/p_l_veh_spd_sens_diag.c
+cd /d  x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src
+cleartool ln  src@@\main\p_l_veh_spd_sens_diag.c  p_l_veh_spd_sens_diag.c
+------------------------------
+------------------------------
+# CMD NO no this file: p_l_veh_spd_sens_diag.h                   
+cleartool checkout -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src
+touch x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src/p_l_veh_spd_sens_diag.h
+cleartool mkelem -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src/p_l_veh_spd_sens_diag.h
+cd /d  x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src
+cleartool ln  src@@\main\p_l_veh_spd_sens_diag.h  p_l_veh_spd_sens_diag.h
+------------------------------
+------------------------------
+# CMD NO no this file: p_l_veh_spd_sens_diag_types.h                   
+cleartool checkout -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src
+touch x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src/p_l_veh_spd_sens_diag_types.h
+cleartool mkelem -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src/p_l_veh_spd_sens_diag_types.h
+cd /d  x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src
+cleartool ln  src@@\main\p_l_veh_spd_sens_diag_types.h  p_l_veh_spd_sens_diag_types.h
+------------------------------
+------------------------------
+# CMD NO no this file: p_l_veh_spd_sens_diag_private.h                   
+cleartool checkout -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src
+touch x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src/p_l_veh_spd_sens_diag_private.h
+cleartool mkelem -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src/p_l_veh_spd_sens_diag_private.h
+cd /d  x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src
+cleartool ln  src@@\main\p_l_veh_spd_sens_diag_private.h  p_l_veh_spd_sens_diag_private.h
+------------------------------
+------------------------------
+# CMD NO no this file: p_l_veh_spd_sens_diag_dd.t55                   
+cleartool checkout -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src
+touch x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src/p_l_veh_spd_sens_diag_dd.t55
+cleartool mkelem -nc x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src/p_l_veh_spd_sens_diag_dd.t55
+cd /d  x:/1jyunapp_b410p11_gv280131_zhaoy2/gill_vob/6_coding/../../gill_vob/6_coding/src/p_l/p_l_analogue/src
+cleartool ln  src@@\main\p_l_veh_spd_sens_diag_dd.t55  p_l_veh_spd_sens_diag_dd.t55
+------------------------------
